@@ -1,0 +1,25 @@
+# OpenBTS scripts for systemd
+In this repository You will find OpenBTS related scripts.
+
+The scripts is created to run OpenBTS services on Ubuntu 16.04 with ```systemd``` init system.
+
+To run OpenBTS, Asterisk, SipAuthServe and Smqueue services on Ubuntu 16.04:
+1. Copy all files from folder systemd to ```/etc/systemd/system/``` folder on your computer.
+2. Execute ```systemctl reload``` and all services will be availible from ```systemctl``` utility.
+
+To run/stop service with ```systemctl``` execute ```systemctl start service_name``` or ```systemctl stop service_name```
+
+To start/stop all services, use ```openbts-start.sh``` and ```openbts-stop.sh```.
+
+#systemd的OpenBTS脚本
+在此存储库中，您将找到与OpenBTS相关的脚本。
+
+创建脚本是为了在Ubuntu 16.04上使用```systemd``` init系统运行OpenBTS服务。
+
+在Ubuntu 16.04上运行OpenBTS，Asterisk，SipAuthServe和Smqueue服务：
+1.将文件夹systemd中的所有文件复制到计算机上的```/ etc / systemd / system /```文件夹中。
+2.执行```systemctl reload```，所有服务都可以从```systemctl```实用程序中获得。
+
+用```systemctl```运行/停止服务执行```systemctl start service_name```或```systemctl stop service_name```
+
+要启动/停止所有服务，请使用```openbts-start.sh```和```openbts-stop.sh```。
